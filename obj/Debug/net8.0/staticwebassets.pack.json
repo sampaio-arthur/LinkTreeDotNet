@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\LinktreeApp.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Usuario\\Desktop\\pc\\LinktreeApp\\wwwroot\\Images\\background.jpg",
+      "PackagePath": "staticwebassets\\Images\\background.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Desktop\\pc\\LinktreeApp\\wwwroot\\css\\output.css",
+      "PackagePath": "staticwebassets\\css\\output.css"
+    },
+    {
       "Id": "C:\\Users\\Usuario\\Desktop\\pc\\LinktreeApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

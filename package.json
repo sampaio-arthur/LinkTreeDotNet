@@ -1,0 +1,15 @@
+{
+  "name": "linktreeapp",
+  "version": "1.0.0",
+  "description": "Projeto Linktree",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./wwwroot/css/site.css -o ./wwwroot/css/output.css --watch"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.0.0"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}

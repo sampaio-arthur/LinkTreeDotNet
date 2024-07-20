@@ -1,23 +1,116 @@
-@model IEnumerable<LinktreeApp.Models.Link>
-
-    <h1>Links</h1>
-
-    <table>
-        <thead>
-            <tr>
-                <th>Title</th>
-                <th>Url</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var link in Model)
-        {
-            <tr>
-                <td>@link.Title</td>
-                <td><a href="@link.Url" target="_blank">@link.Url</a></td>
-            </tr>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sampaio Arthur</title>
+    <link rel="stylesheet" href="~/css/output.css"> <!-- Certifique-se de incluir o CSS gerado pelo Tailwind -->
+    <style>
+        body {
+            background: url('/images/background.jpg') no-repeat center center fixed;
+            background-size: cover; /* Faz com que a imagem cubra todo o fundo */
+            color: #fff; /* Define a cor do texto como branca para contraste com o fundo */
+            margin: 0;
+            font-family: Arial, sans-serif; /* Define uma fonte padrão para o texto */
         }
-        </tbody>
-    </table>
 
-    <a href="/Links/Create">Add New Link</a>
+        h1 {
+            color: #fff; /* Define a cor do título como branca */
+            font-size: 3em; /* Define o tamanho da fonte do título como 3 vezes o tamanho padrão */
+            text-align: center; /* Centraliza o título */
+            margin-top: 20px; /* Adiciona uma margem no topo */
+            margin-bottom: 20px; /* Adiciona uma margem na parte inferior */
+        }
+
+        .link-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centraliza os botões horizontalmente */
+            gap: 15px; /* Adiciona um espaço entre os botões */
+            margin-top: 20px;
+        }
+
+        .link-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px 30px; /* Aumenta o padding para tornar o botão mais comprido */
+            border: 2px solid transparent;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            color: #fff; /* Cor do texto */
+            background-color: #000; /* Cor de fundo do botão */
+            position: relative;
+            overflow: hidden;
+            transition: all 0.4s ease-in-out; /* Ajusta a duração e o tipo da transição */
+            width: 300px; /* Define uma largura fixa para o botão */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra para destacar o botão */
+        }
+
+            .link-button:hover {
+                color: #fff; /* Cor do texto ao passar o mouse */
+                border-color: #fff; /* Cor da borda ao passar o mouse */
+                background-color: #333; /* Cor de fundo ao passar o mouse */
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5); /* Intensifica a sombra ao passar o mouse */
+            }
+
+            .link-button::before,
+            .link-button::after {
+                content: '';
+                position: absolute;
+                border-radius: 50%;
+                transition: all 0.4s ease-in-out; /* Ajusta a duração e o tipo da transição */
+                z-index: 0;
+            }
+
+            .link-button::before {
+                width: 80px;
+                height: 80px;
+                background: radial-gradient(circle, rgba(255, 0, 150, 0.5), transparent);
+                top: 10%;
+                left: 10%;
+                transform: scale(0.5); /* Inicialmente menor */
+            }
+
+            .link-button::after {
+                width: 120px;
+                height: 120px;
+                background: radial-gradient(circle, rgba(0, 150, 255, 0.5), transparent);
+                bottom: -10%;
+                right: -10%;
+                transform: scale(0.5); /* Inicialmente menor */
+            }
+
+            .link-button:hover::before {
+                background: radial-gradient(circle, rgba(255, 0, 150, 0.7), transparent);
+                transform: scale(1.2); /* Aumenta o tamanho do círculo ao passar o mouse */
+                top: 0%; /* Ajusta a posição */
+                left: 0%;
+            }
+
+            .link-button:hover::after {
+                background: radial-gradient(circle, rgba(0, 150, 255, 0.7), transparent);
+                transform: scale(1.2); /* Aumenta o tamanho do círculo ao passar o mouse */
+                bottom: 0%; /* Ajusta a posição */
+                right: 0%;
+            }
+
+            .link-button span {
+                position: relative;
+                z-index: 1;
+            }
+    </style>
+</head>
+<body>
+    <h1>Minhas Redes</h1>
+    <div class="link-container">
+        @foreach (var link in Model)
+        {
+        <a href="@link.Url" class="link-button" target="_blank">
+            <span>@link.Title</span>
+        </a>
+        }
+    </div>
+</body>
+</html>

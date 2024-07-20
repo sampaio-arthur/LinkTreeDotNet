@@ -1,33 +1,23 @@
-using Microsoft.AspNetCore.Mvc;
 using LinktreeApp.Models;
+using LinktreeApp.Services; // Certifique-se de usar o namespace correto
+using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
 namespace LinktreeApp.Controllers
 {
     public class LinksController : Controller
     {
-        private static List<Link> links = new List<Link>
+        private readonly LinkService _linkService;
+
+        public LinksController()
         {
-            new Link { Id = 1, Title = "Google", Url = "https://www.google.com" },
-            new Link { Id = 2, Title = "YouTube", Url = "https://www.youtube.com" }
-        };
+            _linkService = new LinkService();
+        }
 
         public IActionResult Index()
         {
+            List<Link> links = _linkService.GetLinks();
             return View(links);
-        }
-
-        public IActionResult Create()
-        {
-            return View();
-        }
-
-        [HttpPost]
-        public IActionResult Create(Link link)
-        {
-            link.Id = links.Count + 1;
-            links.Add(link);
-            return RedirectToAction("Index");
         }
     }
 }

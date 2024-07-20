@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/SL230xWC+9HfyGSZokMQzlhEWkE1ppRjfwNs0Q7cyg=",
+  "Hash": "3jydj12wX1zV2g53h6AZout43opgruTYGZzdJPZeXgo=",
   "Source": "LinktreeApp",
   "BasePath": "_content/LinktreeApp",
   "Mode": "Default",
@@ -55,6 +55,25 @@
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\pc\\LinktreeApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\LinktreeApp.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\Usuario\\Desktop\\pc\\LinktreeApp\\wwwroot\\css\\output.css",
+      "SourceId": "LinktreeApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\pc\\LinktreeApp\\wwwroot\\",
+      "BasePath": "_content/LinktreeApp",
+      "RelativePath": "css/output.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\output.css"
+    },
+    {
       "Identity": "C:\\Users\\Usuario\\Desktop\\pc\\LinktreeApp\\wwwroot\\css\\site.css",
       "SourceId": "LinktreeApp",
       "SourceType": "Discovered",
@@ -91,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Usuario\\Desktop\\pc\\LinktreeApp\\wwwroot\\Images\\background.jpg",
+      "SourceId": "LinktreeApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\pc\\LinktreeApp\\wwwroot\\",
+      "BasePath": "_content/LinktreeApp",
+      "RelativePath": "Images/background.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\background.jpg"
     },
     {
       "Identity": "C:\\Users\\Usuario\\Desktop\\pc\\LinktreeApp\\wwwroot\\js\\site.js",
