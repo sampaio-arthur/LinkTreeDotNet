@@ -21,4 +21,4 @@ Este é um projeto pessoal de Linktree, criado para listar e compartilhar links 
 Clone este repositório para o seu ambiente local:
 
 ```bash
-git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
+git clone https://github.com/sampaio-arthur/LinkTreeDotNet.git
