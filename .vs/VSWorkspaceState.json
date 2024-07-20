@@ -1,15 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\Models",
-    "\\Services",
-    "\\Views",
-    "\\Views\\Links",
-    "\\wwwroot",
-    "\\wwwroot\\css",
-    "\\wwwroot\\Images",
-    "\\wwwroot\\js"
+    ""
   ],
-  "SelectedNode": "\\Views\\Links\\Index.cshtml",
+  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }

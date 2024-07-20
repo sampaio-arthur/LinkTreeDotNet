@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\pc\\LinktreeApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Desktop\\pc\\LinktreeApp\\Views\\Links\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Links\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Desktop\\pc\\LinktreeApp\\Readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,14 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\pc\\LinktreeApp\\Views\\Links\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Links\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\pc\\LinktreeApp\\Views\\Links\\Index.cshtml",
-              "RelativeToolTip": "Views\\Links\\Index.cshtml",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAAwHQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-20T14:59:47.503Z",
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\pc\\LinktreeApp\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\pc\\LinktreeApp\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-07-20T16:58:04.189Z",
               "EditorCaption": ""
             }
           ]
