@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\pc\\LinktreeApp\\LinktreeApp.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\pc\\LinkTreeDotNet\\LinktreeApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\pc\\LinktreeApp\\LinktreeApp.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\pc\\LinkTreeDotNet\\LinktreeApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\pc\\LinktreeApp\\LinktreeApp.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\pc\\LinkTreeDotNet\\LinktreeApp.csproj",
         "projectName": "LinktreeApp",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\pc\\LinktreeApp\\LinktreeApp.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\pc\\LinkTreeDotNet\\LinktreeApp.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\pc\\LinktreeApp\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\pc\\LinkTreeDotNet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
