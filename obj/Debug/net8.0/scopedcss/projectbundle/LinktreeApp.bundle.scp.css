@@ -3,9 +3,9 @@
 for details on configuring this project to bundle and minify static web assets. */
 
 a.navbar-brand[b-ptlntwdfte] {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
 }
 
 a[b-ptlntwdfte] {
@@ -32,18 +32,18 @@ a[b-ptlntwdfte] {
 }
 
 .box-shadow[b-ptlntwdfte] {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
 
 button.accept-policy[b-ptlntwdfte] {
-  font-size: 1rem;
-  line-height: inherit;
+    font-size: 1rem;
+    line-height: inherit;
 }
 
 .footer[b-ptlntwdfte] {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
 }

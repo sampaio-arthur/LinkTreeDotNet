@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="~/LinktreeApp.styles.css" asp-append-version="true" />
 </head>
 <body>
+    <div class="background"></div>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
@@ -18,6 +19,14 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        document.addEventListener('mousemove', function (e) {
+            const background = document.querySelector('.background');
+            const moveX = (e.clientX / window.innerWidth) * 80 - 40; // Amplificação do movimento
+            const moveY = (e.clientY / window.innerHeight) * 80 - 40; // Amplificação do movimento
+            background.style.transform = `translate(${moveX}px, ${moveY}px)`;
+        });
+    </script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

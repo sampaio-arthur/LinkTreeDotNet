@@ -7,8 +7,9 @@
     "\\Views\\Links",
     "\\Views\\Shared",
     "\\wwwroot",
-    "\\wwwroot\\css"
+    "\\wwwroot\\css",
+    "\\wwwroot\\js"
   ],
-  "SelectedNode": "\\Views\\Shared\\_Layout.cshtml",
+  "SelectedNode": "\\Views\\Links\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

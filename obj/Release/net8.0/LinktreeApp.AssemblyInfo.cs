@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LinktreeApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b144059678716deb571e86c33d3cdc014d17201a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf9c1780b114df3201e87e50d6879735c2850a36")]
 [assembly: System.Reflection.AssemblyProductAttribute("LinktreeApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LinktreeApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
