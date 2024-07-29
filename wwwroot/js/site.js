@@ -6,8 +6,8 @@
     document.addEventListener('mousemove', function(e) {
         console.log('Mouse move detected');
     const background = document.querySelector('.background');
-    const moveX = (e.clientX / window.innerWidth) * 40 - 20;
-    const moveY = (e.clientY / window.innerHeight) * 40 - 20;
+    const moveX = (e.clientX / window.innerWidth) * 40 - 10;
+    const moveY = (e.clientY / window.innerHeight) * 10 - 5;
     console.log(`moveX: ${moveX}, moveY: ${moveY}`);
     background.style.transform = `translate(${moveX}px, ${moveY}px)`;
     });
