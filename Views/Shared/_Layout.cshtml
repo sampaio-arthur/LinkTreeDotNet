@@ -22,8 +22,8 @@
     <script>
         document.addEventListener('mousemove', function (e) {
             const background = document.querySelector('.background');
-            const moveX = (e.clientX / window.innerWidth) * 80 - 40; // Amplificação do movimento
-            const moveY = (e.clientY / window.innerHeight) * 80 - 40; // Amplificação do movimento
+            const moveX = (e.clientX / window.innerWidth) * 40 - 20; // Amplificação do movimento
+            const moveY = (e.clientY / window.innerHeight) * 40 - 20; // Amplificação do movimento
             background.style.transform = `translate(${moveX}px, ${moveY}px)`;
         });
     </script>

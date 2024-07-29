@@ -2,14 +2,14 @@
 <html>
 <head>
     <title>Sampaio Arthur</title>
-    <link rel="stylesheet" href="~/css/output.css"> <!-- Certifique-se de incluir o CSS gerado pelo Tailwind -->
+    <link rel="stylesheet" href="~/css/output.css"> 
     <style>
         body {
-            background: url('/images/background.jpg') no-repeat center center fixed;
+            background: url('/Images/background.jpg') no-repeat center center fixed;
             background-size: cover; /* Faz com que a imagem cubra todo o fundo */
             color: #fff; /* Define a cor do texto como branca para contraste com o fundo */
             margin: 0;
-            font-family: Arial, sans-serif; /* Define uma fonte padrão para o texto */
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif; /* Define uma fonte padrão para o texto */
         }
 
         h1 {
@@ -24,8 +24,8 @@
             display: flex;
             flex-direction: column;
             align-items: center; /* Centraliza os botões horizontalmente */
-            gap: 15px; /* Adiciona um espaço entre os botões */
-            margin-top: 20px;
+            gap: 25px; /* Adiciona um espaço entre os botões */
+            margin-top: 100px;
         }
 
         .link-button {
@@ -103,7 +103,7 @@
     </style>
 </head>
 <body>
-    <h1>Minhas Redes</h1>
+    
     <div class="link-container">
         @foreach (var link in Model)
         {

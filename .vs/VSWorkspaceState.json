@@ -8,8 +8,9 @@
     "\\Views\\Shared",
     "\\wwwroot",
     "\\wwwroot\\css",
+    "\\wwwroot\\Images",
     "\\wwwroot\\js"
   ],
-  "SelectedNode": "\\Views\\Links\\Index.cshtml",
+  "SelectedNode": "\\wwwroot\\css\\site.css",
   "PreviewInSolutionExplorer": false
 }
