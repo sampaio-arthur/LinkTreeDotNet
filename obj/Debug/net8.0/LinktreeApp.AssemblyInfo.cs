@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LinktreeApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b54964cfedf0c7a0e024c76cbf6fb60d12874da9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+704747d44d48ecd8781775a835fd1523d884e52d")]
 [assembly: System.Reflection.AssemblyProductAttribute("LinktreeApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LinktreeApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
