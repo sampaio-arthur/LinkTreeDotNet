@@ -1,0 +1,9 @@
+C:\Users\Usuario\Desktop\pc\LinkTreeDotNet\bin\Release\net8.0\publish\LinktreeApp.exe
+C:\Users\Usuario\Desktop\pc\LinkTreeDotNet\bin\Release\net8.0\publish\appsettings.Development.json
+C:\Users\Usuario\Desktop\pc\LinkTreeDotNet\bin\Release\net8.0\publish\appsettings.json
+C:\Users\Usuario\Desktop\pc\LinkTreeDotNet\bin\Release\net8.0\publish\package-lock.json
+C:\Users\Usuario\Desktop\pc\LinkTreeDotNet\bin\Release\net8.0\publish\package.json
+C:\Users\Usuario\Desktop\pc\LinkTreeDotNet\bin\Release\net8.0\publish\LinktreeApp.dll
+C:\Users\Usuario\Desktop\pc\LinkTreeDotNet\bin\Release\net8.0\publish\LinktreeApp.deps.json
+C:\Users\Usuario\Desktop\pc\LinkTreeDotNet\bin\Release\net8.0\publish\LinktreeApp.runtimeconfig.json
+C:\Users\Usuario\Desktop\pc\LinkTreeDotNet\bin\Release\net8.0\publish\LinktreeApp.pdb
